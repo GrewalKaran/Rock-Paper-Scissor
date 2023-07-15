@@ -114,8 +114,10 @@ console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
-console.log(counterComputer);
-console.log(counterPlayer);
+//display points of players
+console.log(`Your Total Points${counterPlayer}`);
+console.log(`Computer's Total Points${counterComputer}`);
+
 //create a win function to compare counters
 function win(){
 if(counterPlayer>counterComputer){
