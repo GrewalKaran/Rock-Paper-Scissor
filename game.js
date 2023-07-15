@@ -51,7 +51,7 @@ return("You won! Rock beats Scissor");}
 return("It's a tie between Papers");}
  /*if playerSelection is equals to scissors and computerSelection
  is equal to scissors(lower case)*/ 
- if(playerSelection == "scissor"&&computerSelection == "scissor"){
+ if(playerSelection == "scissor"&&computerSelection== "scissor"){
  //return it's a tie b/w scissors
 return("It's a tie between scissors");}
  /*if playerSelection is equals to paper and computerSelection
@@ -66,12 +66,13 @@ return("You lose! Paper loses to scissor");}
 return("You won! Scissor beats Paper");}
  }
  //assign the value of playerChoice 
-let playerChoice  = prompt("Please select - Rock , Paper or Scissor");
+let playerChoice = prompt("Please select - Rock , Paper or Scissor").toLowerCase() ;
 
- /*print the above function using console.log and initialize the arguments
+ /*print the above function 5 times using console.log and initialize the arguments
   in the parameter of the above function*/
 console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
 console.log(gameRound(playerChoice,computerChoice()));
+
