@@ -77,7 +77,7 @@ if(times = 0){
  //return rockPaperScissor.repeat(times) to repeat the game multiple times
 return(rockPaperScissor.repeat(times));}
  //else return ""
-
+else
  /*print the above function using console.log and initialize the arguments
   in the parameter of the above function*/
 }
