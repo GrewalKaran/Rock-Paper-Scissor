@@ -5,17 +5,18 @@ function getComputerChoice(){
     let random = Math.floor(Math.random()*3)+ 1;
     if(random == 1){          /*dont use = because it will assign the value to random variable, 
                                instead == will compare the random variable */  
-        console.log("rock");
+        return("rock");
     }else if(random == 2){
-        console.log("paper");
+        return("paper");
     }else if(random == 3){
-        console.log("scissors");
+        return("scissors");
     }
-}getComputerChoice();
-//get user's choice 
-function getUserChoice(){
-
 }
+//get user's choice using prompt 
+function getUserChoice(){
+    let user = prompt("Choose rock , paper or scissor");
+    return user;
+}console.log(getUserChoice());
 //Compare both choices and display who wins
 function roundResult(){
 
