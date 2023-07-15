@@ -21,14 +21,14 @@ it has two parameters-playerSelection and computerSelection*/
 function gameRound(playerSelection ,computerSelection){
 /*if playerSelection is equals to rock and computerSelection
  is equal to rock(lower case)*/
-if(playerSelection == "rock"&&computerSelection.toLowerCase() =="rock"){}
+if(playerSelection == "rock"&&computerSelection.toLowerCase() =="rock"){
  //return it's a tie b/w rocks !
-
+return("It's a tie between Rocks");}
  /*if playerSelection is equals to paper and computerSelection
  is equal to rock(lower case)*/ 
-
+ if(playerSelection == "paper"&&computerSelection.toLowerCase() =="rock"){
  //return you won! paper beats rock
-
+return("ou won! Paper beats Rock")
  /*if playerSelection is equals to scissor and computerSelection
  is equal to rock(lower case)*/ 
 
