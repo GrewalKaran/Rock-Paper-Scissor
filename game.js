@@ -43,7 +43,7 @@ return("You lose! Rock loses to Paper");}
  is equal to scissor(lower case)*/ 
  if(playerSelection == "rock"&&computerSelection.toLowerCase() =="scissor"){
  //return you won! rock beats scissors
-
+return("You won! Rock beats Scissor");}
 /*if playerSelection is equals to paper and computerSelection
  is equal to paper(lower case)*/ 
 
