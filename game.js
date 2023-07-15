@@ -65,7 +65,7 @@ return("You lose! Paper loses to scissor");}
  //return you won! scissor beats paper
 return("You won! Scissor beats Paper");}
  //assign the value of computerChoice function to const computerSelection parameter
-
+const computerSelection = computerChoice();
  //assign the value of playerChoice to const playerSelection parameter
 
 
