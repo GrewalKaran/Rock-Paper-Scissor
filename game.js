@@ -28,15 +28,15 @@ return("It's a tie between Rocks");}
  is equal to rock(lower case)*/ 
  if(playerSelection == "paper"&&computerSelection.toLowerCase() =="rock"){
  //return you won! paper beats rock
-return("ou won! Paper beats Rock")
+return("You won! Paper beats Rock");}
  /*if playerSelection is equals to scissor and computerSelection
  is equal to rock(lower case)*/ 
-
+ if(playerSelection == "scissor"&&computerSelection.toLowerCase() =="rock"){
  //return you lose ! scissor loses to rock
-
+return("You lose! Scissor loses to Rock");}
  /*if playerSelection is equals to rock and computerSelection
  is equal to paper(lower case)*/
- 
+ if(playerSelection == "rock"&&computerSelection.toLowerCase() =="paper"){
  //you lose! rock loses to paper
 
  /*if playerSelection is equals to rock and computerSelection
