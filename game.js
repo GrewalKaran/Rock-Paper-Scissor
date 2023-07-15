@@ -16,7 +16,7 @@ function getComputerChoice(){
 function getUserChoice(){
     let user = prompt("Choose rock , paper or scissor");
     return user;
-}console.log(getUserChoice());
+}
 //Compare both choices and display who wins
 function roundResult(){
 
