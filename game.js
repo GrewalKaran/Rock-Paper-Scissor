@@ -64,22 +64,23 @@ return("You lose! Paper loses to scissor");}
  if(playerSelection == "scissor"&&computerSelection.toLowerCase() =="paper"){
  //return you won! scissor beats paper
 return("You won! Scissor beats Paper");}
+ }
  //assign the value of computerChoice function to const computerSelection parameter
 const computerSelection = computerChoice();
  //assign the value of playerChoice to const playerSelection parameter
 let playerChoice  = prompt("Please select - Rock , Paper or Scissor");
 const playerSelection  = playerChoice;
  /*create a function named fiveTimes having parameters - rockPaperScissor and times*/
-
+function fiveTimes(rockPaperScissor,times){
  //if times > 0
-
+if(times = 0){
  //return rockPaperScissor.repeat(times) to repeat the game multiple times
-
+return(rockPaperScissor.repeat(times));}
  //else return ""
 
  /*print the above function using console.log and initialize the arguments
   in the parameter of the above function*/
-   
+}
 
 
 
