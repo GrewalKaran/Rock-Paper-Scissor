@@ -57,8 +57,8 @@ return("It's a tie between scissors");}
  /*if playerSelection is equals to paper and computerSelection
  is equal to scissor(lower case)*/ 
  if(playerSelection == "paper"&&computerSelection.toLowerCase() =="scissor"){
- //return you lose! paper loses to scissors
-
+ //return you lose! paper loses to scissor
+return("You lose! Paper loses to scissor");}
  /*if playerSelection is equals to scissors and computerSelection
  is equal to paper(lower case)*/ 
 
