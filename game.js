@@ -67,8 +67,8 @@ return("You won! Scissor beats Paper");}
  //assign the value of computerChoice function to const computerSelection parameter
 const computerSelection = computerChoice();
  //assign the value of playerChoice to const playerSelection parameter
-
-
+let playerChoice  = prompt("Please select - Rock , Paper or Scissor");
+const playerSelection  = playerChoice;
  /*create a function named fiveTimes having parameters - rockPaperScissor and times*/
 
  //if times > 0
