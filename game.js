@@ -78,9 +78,10 @@ if(times = 0){
 return(rockPaperScissor.repeat(times));}
  //else return ""
 else{return("")} 
+}
  /*print the above function using console.log and initialize the arguments
   in the parameter of the above function*/
-}
+console.log(fiveTimes(gameRound(playerSelection,computerChoice),5));
 
 
 
