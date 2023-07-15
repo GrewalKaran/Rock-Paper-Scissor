@@ -63,7 +63,7 @@ return("You lose! Paper loses to scissor");}
  is equal to paper(lower case)*/ 
  if(playerSelection == "scissor"&&computerSelection.toLowerCase() =="paper"){
  //return you won! scissor beats paper
-
+return("You won! Scissor beats Paper");}
  //assign the value of computerChoice function to const computerSelection parameter
 
  //assign the value of playerChoice to const playerSelection parameter
