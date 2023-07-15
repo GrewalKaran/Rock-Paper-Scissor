@@ -18,10 +18,10 @@ if(randomValue == 3){
 
 /*create a function that plays a single round of game and 
 it has two parameters-playerSelection and computerSelection*/
-
+function gameRound(playerSelection ,computerSelection){
 /*if playerSelection is equals to rock and computerSelection
  is equal to rock(lower case)*/
-
+if(playerSelection == "rock"&&computerSelection.toLowerCase() =="rock"){}
  //return it's a tie b/w rocks !
 
  /*if playerSelection is equals to paper and computerSelection
