@@ -51,7 +51,7 @@ return("You won! Rock beats Scissor");}
 return("It's a tie between Papers");}
  /*if playerSelection is equals to scissors and computerSelection
  is equal to scissors(lower case)*/ 
-
+ if(playerSelection == "scissor"&&computerSelection.toLowerCase() =="scissor"){
  //return it's a tie b/w scissors
 
  /*if playerSelection is equals to paper and computerSelection
