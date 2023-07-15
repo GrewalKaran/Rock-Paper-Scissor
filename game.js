@@ -71,8 +71,7 @@ let playerChoice  = prompt("Please select - Rock , Paper or Scissor");
  /*print the above function using console.log and initialize the arguments
   in the parameter of the above function*/
 console.log(gameRound(playerChoice,computerChoice()));
-
-
-
-
-//assign the value of computerChoice function to const computerSelection parameter
+console.log(gameRound(playerChoice,computerChoice()));
+console.log(gameRound(playerChoice,computerChoice()));
+console.log(gameRound(playerChoice,computerChoice()));
+console.log(gameRound(playerChoice,computerChoice()));
