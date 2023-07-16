@@ -104,16 +104,20 @@ counterComputer=counterComputer-1;
 return("You won! Scissor beats Paper");
 }
  }
- //assign the value of playerChoice 
-let playerChoice = prompt("Please select - Rock , Paper or Scissor").toLowerCase() ;
+ //assign the value of multiple playerChoice 
+let playerChoice1 = prompt("Select your weapon🛡️- Rock🪨 , Paper🧻 or Scissor✂️").toLowerCase() ;
+let playerChoice2 = prompt("Select your weapon🛡️- Rock🪨 , Paper🧻 or Scissor✂️").toLowerCase() ;
+let playerChoice3 = prompt("Select your weapon🛡️- Rock🪨 , Paper🧻 or Scissor✂️").toLowerCase() ;
+let playerChoice4 = prompt("Select your weapon🛡️- Rock🪨 , Paper🧻 or Scissor✂️").toLowerCase() ;
+let playerChoice5 = prompt("Select your weapon🛡️- Rock🪨 , Paper🧻 or Scissor✂️").toLowerCase() ;
 
- /*print the above function 5 times using console.log and initialize the arguments
+/*print the above function 5 times using console.log and initialize the arguments
   in the parameter of the above function*/
-console.log(gameRound(playerChoice,computerChoice()));
-console.log(gameRound(playerChoice,computerChoice()));
-console.log(gameRound(playerChoice,computerChoice()));
-console.log(gameRound(playerChoice,computerChoice()));
-console.log(gameRound(playerChoice,computerChoice()));
+console.log(gameRound(playerChoice1,computerChoice()));
+console.log(gameRound(playerChoice2,computerChoice()));
+console.log(gameRound(playerChoice3,computerChoice()));
+console.log(gameRound(playerChoice4,computerChoice()));
+console.log(gameRound(playerChoice5,computerChoice()));
 //display points of players
 console.log(`Your Total Points - ${counterPlayer}`);
 console.log(`Computer's Total Points - ${counterComputer}`);
